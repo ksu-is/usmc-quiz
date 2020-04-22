@@ -9,65 +9,65 @@
     </div>
     
       <h2>Welcome to the Simpsons Character Quiz! You have 7 minutes to enter in all the missing character names. Good Luck!</h2>
-      1. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Beer and TV"></textarea>
+      1. <textarea id="input01" name="tutorial" rows="1" cols="45" placeholder="Hint: Beer and TV"></textarea>
     
-      2. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Blue "></textarea>
+      2. <textarea id="input02" name="tutorial" rows="1" cols="45" placeholder="Hint: Blue "></textarea>
     
-      3. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Writes a ton on the chalkboard "></textarea>
+      3. <textarea id="input03" name="tutorial" rows="1" cols="45" placeholder="Hint: Writes a ton on the chalkboard "></textarea>
      
-      4. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Musically inclinde"></textarea>
+      4. <textarea id="input04" name="tutorial" rows="1" cols="45" placeholder="Hint: Musically inclinde"></textarea>
     
-      5. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Not much for words"></textarea>
+      5. <textarea id="input05" name="tutorial" rows="1" cols="45" placeholder="Hint: Not much for words"></textarea>
     
-      6. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Christmas"></textarea>
+      6. <textarea id="input06" name="tutorial" rows="1" cols="40" placeholder="Hint: Christmas"></textarea>
     
-      7. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: A hairy Christmas"></textarea>
+      7. <textarea id="input07" name="tutorial" rows="1" cols="40" placeholder="Hint: A hairy Christmas"></textarea>
     
-      8. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Always confused"></textarea>
+      8. <textarea id="input08" name="tutorial" rows="1" cols="40" placeholder="Hint: Always confused"></textarea>
     
-      9. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Convinence forever, freshness never"></textarea>
+      9. <textarea id="input09" name="tutorial" rows="1" cols="40" placeholder="Hint: Convinence forever, freshness never"></textarea>
     
-      10. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Regular at Moe's, usually intoxicated"></textarea>
+      10. <textarea id="input10" name="tutorial" rows="1" cols="40" placeholder="Hint: Regular at Moe's, usually intoxicated"></textarea>
     
-      11. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Donuts are the go to"></textarea>
+      11. <textarea id="input11" name="tutorial" rows="1" cols="40" placeholder="Hint: Donuts are the go to"></textarea>
 
-      12. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Usually wins at the end"></textarea>
+      12. <textarea id="input12" name="tutorial" rows="1" cols="40" placeholder="Hint: Usually wins at the end"></textarea>
 
-      13. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Usually does not win at the end"></textarea>
+      13. <textarea id="input13" name="tutorial" rows="1" cols="40" placeholder="Hint: Usually does not win at the end"></textarea>
 
-      14. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: News today"></textarea>
+      14. <textarea id="input14" name="tutorial" rows="1" cols="40" placeholder="Hint: News today"></textarea>
 
-      15.<textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Signature laugh"></textarea>
+      15. <textarea id="input15" name="tutorial" rows="1" cols="40" placeholder="Hint: Signature laugh"></textarea>
 
-      16. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Ahhhhhhh my eye"></textarea>
+      16. <textarea id="input16" name="tutorial" rows="1" cols="40" placeholder="Hint: Ahhhhhhh my eye"></textarea>
 
-      17. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: German"></textarea>
+      17. <textarea id="input17" name="tutorial" rows="1" cols="40" placeholder="Hint: German"></textarea>
 
-      18. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Hopelessly in love with one of the Simpsons"></textarea>
+      18. <textarea id="input18" name="tutorial" rows="1" cols="40" placeholder="Hint: Hopelessly in love with one of the Simpsons"></textarea>
 
-      19. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Main supplier of Duff Beer in Spring Hill"></textarea>
+      19. <textarea id="input19" name="tutorial" rows="1" cols="40" placeholder="Hint: Main supplier of Duff Beer in Spring Hill"></textarea>
 
-      20. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Release the hounds"></textarea>
+      20. <textarea id="input20" name="tutorial" rows="1" cols="40" placeholder="Hint: Release the hounds"></textarea>
 
-      21. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Well howdy there neighbor"></textarea>
+      21. <textarea id="input21" name="tutorial" rows="1" cols="40" placeholder="Hint: Well howdy there neighbor"></textarea>
 
-      22. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: The wheels on the bus go round and round"></textarea>
+      22. <textarea id="input22" name="tutorial" rows="1" cols="40" placeholder="Hint: The wheels on the bus go round and round"></textarea>
 
-      23. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Lots of cigarettes"></textarea>
+      23. <textarea id="input23" name="tutorial" rows="1" cols="40" placeholder="Hint: Lots of cigarettes"></textarea>
 
-      24. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Even more cigarettes"></textarea>
+      24. <textarea id="input24" name="tutorial" rows="1" cols="40" placeholder="Hint: Even more cigarettes"></textarea>
 
-      25. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Haha, I'm in danger!"></textarea>
+      25. <textarea id="input25" name="tutorial" rows="1" cols="40" placeholder="Hint: Haha, I'm in danger!"></textarea>
 
-      26. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Schools out"></textarea>
+      26. <textarea id="input26" name="tutorial" rows="1" cols="40" placeholder="Hint: Schools out"></textarea>
 
-      27. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: The best assistant there ever was"></textarea>
+      27. <textarea id="input27" name="tutorial" rows="1" cols="40" placeholder="Hint: The best assistant there ever was"></textarea>
 
-      28. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: For the people... sometimes"></textarea>
+      28. <textarea id="input28" name="tutorial" rows="1" cols="40" placeholder="Hint: For the people... sometimes"></textarea>
 
-      29. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: HA HA "></textarea>
+      29. <textarea id="input29" name="tutorial" rows="1" cols="40" placeholder="Hint: HA HA "></textarea>
 
-      30. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Bagpipes with a thick accent"></textarea>
+      30. <textarea id="input30" name="tutorial" rows="1" cols="40" placeholder="Hint: Bagpipes with a thick accent"></textarea>
     </div>
 
     <div><br><br>
