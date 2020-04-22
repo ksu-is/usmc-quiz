@@ -1,6 +1,6 @@
 character_names = open('charaters.txt','w+')
 
-character_names.write("Homer Simpson, Marge Simpson, Bart Simpson, Lisa Simpson, Maggie Simpson, Santa’s little helper, Snowball, Abraham, Apu, Barney, Chief Wiggum, Itchy, Scratchy, Kent Brockman, Krusty the Clown, Lenny, Uter, Millhouse, Moe, Mr.Burns, Ned Flanders, Otto Man, Patty, Selma, Ralph Wiggum, Seymour Skinner, Waylon Smithers, Mayor Joe Quimby, Nelson Muntz, Groundskeeper Willie")
+character_names.write("Homer","Marge","Bart","Lisa","Maggie","Santa’s little helper","Snowball", "Abraham","Apu", "Barney","Chief Wiggum","Itchy","Scratchy","Kent Brockman","Krusty the Clown","Lenny","Uter","Millhouse","Moe","Mr.Burns","Ned Flanders","Otto Man","Patty","Selma","Ralph Wiggum","Seymour Skinner","Waylon Smithers", "Mayor Joe Quimby","Nelson Muntz", "Groundskeeper Willie")
 
 character_names.seek(0)
 
