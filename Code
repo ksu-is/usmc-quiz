@@ -1,32 +1,21 @@
-blanks = ["1.___","2.___","3.___","4.___","5.___","6.___","7.___","8.___","9.___","10.___","11.___","12.___","13.___","14.___',"15.___","16.___","17.___","18.___","19.___","20.___","21.___","22.___","23.___","24.___","25.___","26.___","27.___","28.___","29.___","30.___"]
+from flask import Flask, render_template, request
 
-1.______ (Hint: Beer and TV)
-2.______ (Hint: Blue)
-3.______ (Hint: Writes a ton on the chalk board after school)
-4.______ (Hint: Musically inclinde)
-5.______ (Hint: Not much on words)
-6.______ (Hint: Christmas)
-7.______ (Hint: A hairy Christmas)
-8.______ (Hint: Always confused)
-9.______ (Hint: Convinence forever, freshness never)
-10._____ (Hint: Regular at Moe's, usually intoxicated)
-11._____ (Hint: Donuts are the go to)
-12._____ (Hint: Usually wins at the end)
-13._____ (Hint: Usually does not win at the end)
-14._____ (Hint: News today)
-15._____ (Hint: Signature laugh)
-16._____ (Hint: Ahhhhhhh my eye)
-17._____ (Hint: German)
-18._____ (Hint: Hopelessly in love with one of the Simpsons)
-19._____ (Hint: Main supplier of Duff Beer in Spring Hill)
-20._____ (Hint: Release the hounds)
-21._____ (Hint: Well howdy there neighbor)
-22._____ (Hint: The wheels on the bus go round and round)
-23._____ (Hint: Lots of cigarettes)
-24._____ (Hint: Even more cigarettes)
-25._____ (Hint: Haha, I'm in danger!)
-26._____ (Hint: Schools out)
-27._____ (Hint: The best assistant there ever was)
-28._____ (Hint: For the people... sometimes)
-29._____ (Hint: HA HA )
-30._____ (Hint: Bagpipes and a good beer)
+app = Flask(QUIZ GAME)
+
+@app.route('/py', methods=['GET', 'POST'])
+
+@app.route('/')
+def index():
+    return render_template('index-quizgame.html')
+
+@app.route('/')
+def quiz():
+    input01 = request.form['input01']
+    input02 = request.form['input02']
+    
+
+    if input01 == 'homer':
+        return("correct")
+
+if __name__ == '__main__':
+    app.run(host = '0.0.0.0', port = 3000)
