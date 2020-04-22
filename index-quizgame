@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>The Simpsons Quiz Game</title>
+	</head>
+	<body>
+
+    </div>
+    
+      <h2>Welcome to the Simpsons Character Quiz! You have 7 minutes to enter in all the missing character names. Good Luck!</h2>
+      1. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Beer and TV"></textarea>
+    
+      2. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Blue "></textarea>
+    
+      3. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Writes a ton on the chalkboard "></textarea>
+     
+      4. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Musically inclinde"></textarea>
+    
+      5. <textarea id="tutorial" name="tutorial" rows="1" cols="45" placeholder="Hint: Not much for words"></textarea>
+    
+      6. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Christmas"></textarea>
+    
+      7. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: A hairy Christmas"></textarea>
+    
+      8. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Always confused"></textarea>
+    
+      9. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Convinence forever, freshness never"></textarea>
+    
+      10. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Regular at Moe's, usually intoxicated"></textarea>
+    
+      11. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Donuts are the go to"></textarea>
+
+      12. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Usually wins at the end"></textarea>
+
+      13. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Usually does not win at the end"></textarea>
+
+      14. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: News today"></textarea>
+
+      15.<textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Signature laugh"></textarea>
+
+      16. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Ahhhhhhh my eye"></textarea>
+
+      17. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: German"></textarea>
+
+      18. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Hopelessly in love with one of the Simpsons"></textarea>
+
+      19. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Main supplier of Duff Beer in Spring Hill"></textarea>
+
+      20. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Release the hounds"></textarea>
+
+      21. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Well howdy there neighbor"></textarea>
+
+      22. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: The wheels on the bus go round and round"></textarea>
+
+      23. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Lots of cigarettes"></textarea>
+
+      24. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Even more cigarettes"></textarea>
+
+      25. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Haha, I'm in danger!"></textarea>
+
+      26. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Schools out"></textarea>
+
+      27. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: The best assistant there ever was"></textarea>
+
+      28. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: For the people... sometimes"></textarea>
+
+      29. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: HA HA "></textarea>
+
+      30. <textarea id="tutorial" name="tutorial" rows="1" cols="40" placeholder="Hint: Bagpipes with a thick accent"></textarea>
+    </div>
+
+    <div><br><br>
+      <button type="button" id="submit-button">Get My Results!</button>
+      <button type="button" id="reset-button">Reset Quiz</button>
+    </div>
+
+    <div id="result">
+    </div>
+
+		<script src="code"></script>
+	</body>
+</html>
