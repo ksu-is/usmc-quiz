@@ -54,10 +54,10 @@ def quiz():
         input_names = []
     
         for name in characters:
-
-            if input01.capitalize() in characters:
-                correct.append
-            
+            if input01 in characters:
+                correct.append(name)
+            else:
+                incorrect.append(name)            
 
 if QUIZ == '__main__':
     app.run(host = '0.0.0.0', port = 3000)
