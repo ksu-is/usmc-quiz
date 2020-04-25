@@ -1,4 +1,4 @@
-from flask import Flask, request, session
+from flask import Flask, request, render_template
 
 app=Flask(__name__)
 app.config["DEBUG"] = True
@@ -10,7 +10,10 @@ def index():
 @app.route('/quiz',methods=['GET','POST'])
 def quiz():
     
-    
+character_names = open('charaters.txt','w+')
+character_names.write("Homer","Marge","Bart","Lisa","Maggie","Santa’s little helper","Snowball", "Abraham","Apu", "Barney","Chief Wiggum","Itchy","Scratchy","Kent Brockman","Krusty the Clown","Lenny","Uter","Millhouse","Moe","Mr.Burns","Ned Flanders","Otto Man","Patty","Selma","Ralph Wiggum","Seymour Skinner","Waylon Smithers", "Mayor Joe Quimby","Nelson Muntz", "Groundskeeper Willie")
+character_names.seek(0)
+character_list = character_names.read() 
 
 character_names = open('characters.txt','r')
 characters = character_names.readline()
@@ -44,8 +47,6 @@ for name in character_list:
         incorrect.append(name)
         
 correct_numbers = len(correct)
-
-grade = correct_numbers * 20
 
 
 print('\n')
