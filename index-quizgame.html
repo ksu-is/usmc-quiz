@@ -2,71 +2,77 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style-quizgame.css">
-		<title>The Simpsons Quiz Game</title>
+    <title>The Simpsons Quiz Game</title>
+    <script src='Code.py'></script>
 	</head>
 	<body>
 
     </div>
     
       <h2>Welcome to the Simpsons Character Quiz! You have 7 minutes to enter in all the missing character names. Good Luck!</h2>
-      1. <textarea id="1" name="input01" rows="1" cols="40" placeholder="Hint: Beer and TV"></textarea> 
-      11. <textarea id="11" name="input11" rows="1" cols="40" placeholder="Hint: Donuts are the go to"></textarea>
-      21. <textarea id="21" name="input21" rows="1" cols="40" placeholder="Hint: Well howdy there neighbor"></textarea>
-      <br/>
+      
+      <p><form action='code.py' method='post'>
+          1. Hint: Beer and TV"
+          11. Hint: Donuts are the go to"
+          21. Hint: Well howdy there neighbor
+          <br/>
     
-      2. <textarea id="2" name="input02" rows="1" cols="40" placeholder="Hint: Blue "></textarea>
-      12. <textarea id="12" name="input12" rows="1" cols="40" placeholder="Hint: Usually wins at the end"></textarea>
-      22. <textarea id="22" name="input22" rows="1" cols="40" placeholder="Hint: The wheels on the bus go round and round"></textarea>
-      <br/>
+          2. Hint: Blue 
+          12. "Hint: Usually wins at the end"
+          22. Hint: The wheels on the bus go round and round
+          <br/>
     
-      3. <textarea id="3" name="input03" rows="1" cols="40" placeholder="Hint: Writes a ton on the chalkboard "></textarea>
-      13. <textarea id="13" name="input13" rows="1" cols="40" placeholder="Hint: Usually does not win at the end"></textarea>
-      23. <textarea id="23" name="input23" rows="1" cols="40" placeholder="Hint: Lots of cigarettes"></textarea>
-      <br/>
+          3. Hint: Writes a ton on the chalkboard
+          13. Hint: Usually does not win at the end
+          23. Hint: Lots of cigarettes
+          <br/>
      
-      4. <textarea id="4" name="input04" rows="1" cols="40" placeholder="Hint: Musically inclinde"></textarea>
-      14. <textarea id="14" name="input14" rows="1" cols="40" placeholder="Hint: News today"></textarea>
-      24. <textarea id="24" name="input24" rows="1" cols="40" placeholder="Hint: Even more cigarettes"></textarea>
-      <br/>
+          4. Hint: Musically inclinde
+          14. Hint: News today
+          24. Hint: Even more cigarettes
+          <br/>
     
-      5. <textarea id="5" name="input05" rows="1" cols="40" placeholder="Hint: Not much for words"></textarea>
-      15.<textarea id="15" name="input15" rows="1" cols="40" placeholder="Hint: Signature laugh"></textarea>
-      25. <textarea id="25" name="input25" rows="1" cols="40" placeholder="Hint: Haha, I'm in danger!"></textarea>
-      <br/>
+          5. Hint: Not much for words
+          15. Hint: Signature laugh
+          25. Hint: Haha, I'm in danger!
+          <br/>
     
-      6. <textarea id="6" name="input06" rows="1" cols="40" placeholder="Hint: Christmas"></textarea>
-      16. <textarea id="16" name="input16" rows="1" cols="40" placeholder="Hint: Ahhhhhhh my eye"></textarea>
-      26. <textarea id="26" name="input26" rows="1" cols="40" placeholder="Hint: Schools out"></textarea>
-      <br/>
+          6. Hint: Christmas
+          16. Hint: Ahhhhhhh my eye
+          26. Hint: Schools out
+          <br/>
     
-      7. <textarea id="7" name="input07" rows="1" cols="40" placeholder="Hint: A hairy Christmas"></textarea>
-      17. <textarea id="17" name="input17" rows="1" cols="40" placeholder="Hint: German"></textarea>
-      27. <textarea id="27" name="input27" rows="1" cols="40" placeholder="Hint: The best assistant there ever was"></textarea>
-      <br/>
+          7. Hint: A hairy Christmas
+          17. Hint: German
+          27. Hint: The best assistant there ever was
+          <br/>
     
-      8. <textarea id="8" name="input08" rows="1" cols="40" placeholder="Hint: Always confused"></textarea>
-      18. <textarea id="18" name="input18" rows="1" cols="40" placeholder="Hint: Hopelessly in love with one of the Simpsons"></textarea>
-      28. <textarea id="28" name="input28" rows="1" cols="40" placeholder="Hint: For the people... sometimes"></textarea>
-      <br/>
+          8. Hint: Always confused
+          18. Hint: Hopelessly in love with one of the Simpsons
+          28. Hint: For the people... sometimes
+          <br/>
 
-      9. <textarea id="9" name="input09" rows="1" cols="40" placeholder="Hint: Convinence forever, freshness never"></textarea>
-      19. <textarea id="19" name="input19" rows="1" cols="40" placeholder="Hint: Main supplier of Duff Beer in Spring Hill"></textarea>
-      29. <textarea id="29" name="input29" rows="1" cols="40" placeholder="Hint: HA HA "></textarea>
-      <br/>
+          9. Hint: Convinence forever, freshness never
+          19. Hint: Main supplier of Duff Beer in Spring Hill"
+          29. Hint: HA HA 
+          <br/>
     
-      10. <textarea id="10" name="input10" rows="1" cols="40" placeholder="Hint: Regular at Moe's, usually intoxicated"></textarea>
-      20. <textarea id="20" name="input20" rows="1" cols="40" placeholder="Hint: Release the hounds"></textarea>
-      30. <textarea id="30" name="input30" rows="1" cols="40" placeholder="Hint: Bagpipes with a thick accent"></textarea>
+          10. Hint: Regular at Moe's, usually intoxicated
+          20. Hint: Release the hounds
+          30. Hint: Bagpipes with a thick accent
+        </div>
+
+        </div>
+
+        <textarea id="30" name="input_character" rows="1" cols="40" placeholder="Enter Character Names Here"></textarea>
+
+        </div>
+
+        <div><br><br>
+        <button type="button" id="submit-button">Enter Character</button>
+        <button type="button" id="reset-button">Reset Quiz</button>
+      </form></p>
     </div>
 
-    <div><br><br>
-      <button type="button" id="submit-button">Get My Results!</button>
-      <button type="button" id="reset-button">Reset Quiz</button>
-    </div>
-
-    <div id="result">
-    </div>
-
-		<script src="code"></script>
 	</body>
 </html>
