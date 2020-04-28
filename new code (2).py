@@ -1,10 +1,13 @@
 from tkinter import Tk, Frame, Label, Button 
-
+from PIL import ImageTk,Image
 
 root = Tk()
 root.geometry("300x250")
+
 root.configure(background='lightblue')
 
+img = ImageTk.PhotoImage(Image.open("picture1.png"))
+canvas.create_image(20,20,anchor = NW, image=img)
 
 class Question:
     def __init__(self, question, answers, correctLetter):
