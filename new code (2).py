@@ -2,12 +2,17 @@ from tkinter import Tk, Frame, Label, Button
 from PIL import ImageTk,Image
 
 root = Tk()
-root.geometry("300x250")
-
-root.configure(background='lightblue')
+root.title("The Simpsons Quiz Game!")
+root.geometry("470x460")
+root.configure(background= 'gray94')
 
 img = ImageTk.PhotoImage(Image.open("picture1.png"))
-canvas.create_image(20,20,anchor = NW, image=img)
+panel = Label(root,image = img)
+panel.pack(side = "bottom", fill = "none", expand = "no")
+
+frame = Frame(root)
+frame.pack()
+
 
 class Question:
     def __init__(self, question, answers, correctLetter):
@@ -29,10 +34,10 @@ class Question:
     def getView(self, window):
         view = Frame(root)
         Label(view, text=self.question).pack()
-        Button(view, bg='#ffff33', activebackground='#adff2f', text=self.answers[0], command=lambda *args: self.check("A", view)).pack()
-        Button(view, bg='#ffff33', activebackground='#adff2f', text=self.answers[1], command=lambda *args: self.check("B", view)).pack()
-        Button(view, bg='#ffff33', activebackground='#adff2f', text=self.answers[2], command=lambda *args: self.check("C", view)).pack()
-        Button(view, bg='#ffff33', activebackground='#adff2f', text=self.answers[3], command=lambda *args: self.check("D", view)).pack()
+        Button(view, bg='#00ccff', activebackground='#ffff33', text=self.answers[0], command=lambda *args: self.check("A", view)).pack()
+        Button(view, bg='#00ccff', activebackground='#ffff33', text=self.answers[1], command=lambda *args: self.check("B", view)).pack()
+        Button(view, bg='#00ccff', activebackground='#ffff33', text=self.answers[2], command=lambda *args: self.check("C", view)).pack()
+        Button(view, bg='#00ccff', activebackground='#ffff33', text=self.answers[3], command=lambda *args: self.check("D", view)).pack()
         
         return view
 
@@ -54,7 +59,7 @@ button = Button(root, text = 'Start Quiz', bg='#ffff33', activebackground='#adff
 button.pack()
 
 questions = []
-file = open("example2.txt", "r")
+file = open("new code questions.txt", "r")
 line = file.readline()
 while(line != ""):
     questionString = line
