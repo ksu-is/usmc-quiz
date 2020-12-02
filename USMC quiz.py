@@ -9,7 +9,7 @@
 #
 """
 
-print("*** Yo! Welcome to the most USMC quiz by Jarvis Sturdivant***")
+print("*** Welcome to the most USMC quiz by Jarvis Sturdivant***")
 name = input(' WHATS YOUR NAME ? \n:')
 print('WELCOME,', name)
 ans = input('Are you ready?  (y/n): ')
